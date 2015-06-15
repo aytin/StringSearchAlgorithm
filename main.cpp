@@ -25,7 +25,7 @@ int search(const char* x, const char* y){
             i++;
             j++;
             counter++;
-            if (sayac == y_len) {
+            if (counter == y_len) {
                 counter2++;
                 counter = 0;
                 i=0;
